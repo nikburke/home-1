@@ -2,12 +2,15 @@ class Main {
     public static float doTask4(float a, float b,float c,float d ) { 
   return(a * (b + (c / d)));
 }
+
     public static boolean doTask5(int a, int b) { 
     return((a+b>=10)&&(a+b<=20));
 }
+
     public static boolean doTask6(int a) { 
     return(a<=0);
 }
+
 public static  String doTask7(String name){
 String  result = "Привет, " + name + "!";
 return result;
